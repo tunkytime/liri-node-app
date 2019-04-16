@@ -26,6 +26,8 @@ Search the Spotify API to return the following information about a song:
 * 'spotify-this-song'
 * song name (if this is empty, the search defaults to The Sign by Ace of Base)
 
+*Currently set to return five results*
+
 ![Spotify](/screenshots/spotify-this.png)
 
 ## Movie Search
@@ -42,6 +44,8 @@ Search the OMDB API to return the following informaiton about a movie:
 ### Parameters
 * 'movie-this'
 * movie name (if this is empty, the search defaults to Mr. Nobody)
+
+*Returns one result*
 
 ![Movie](/screenshots/movie-this.png)
 
