@@ -55,3 +55,7 @@ The text file contains the text - concert-this,"Imagine Dragons" - and searches 
 The text file can be changed to search the Spotify and OMDB API, as well.
 
 ![Text](/screenshots/do-what-it-says.png)
+
+## No Parameters
+If no parameters are included, the following message is logged:
+![Error](/screenshots/no-results.png)
