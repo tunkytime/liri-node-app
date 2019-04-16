@@ -1,5 +1,7 @@
 # liri-node-app
 
+Liri makes it easy to search for concerts, songs, and movie data. 
+
 ## Concert Search 
 Search the Bands in Town Artist Events API to return the following event information about a band or artist:
 
