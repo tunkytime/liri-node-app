@@ -1,6 +1,6 @@
 # liri-node-app
 
-Liri is a command line application that runs using node.js. Liri makes it easy to search for concerts, songs, and movie data!
+Liri is a command line application that runs using node.js. This app makes it easy to find data for concerts, songs, and movies.
 
 ## Concert Search 
 Search the Bands in Town Artist Events API to return the following event information about a band or artist:
