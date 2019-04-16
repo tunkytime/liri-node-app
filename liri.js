@@ -18,15 +18,22 @@ for (var i = 4; i < input.length; i++) {
 };
 
 // MAIN PROCESS
-if (command === "concert-this") {
-  concertThis(search);
-} else if (command === "spotify-this-song") {
-  spotifyThis(search);
-} else if (command === "movie-this") {
-  movieThis();
-} else if (command === "do-what-it-says") {
-  doThis();
-};
+switch (command) {
+  case 'concert-this':
+    concertThis(search);
+    break;
+  case 'spotify-this-song':
+    spotifyThis(search);
+    break;
+  case 'movie-this':
+    movieThis(search);
+    break;
+  case 'do-what-it-says':
+    doThis();
+    break;
+  default:
+    console.log("Sorry, that didn't work!");
+}
 
 // FUNCTIONS
 function concertThis(search) {
@@ -74,6 +81,7 @@ function spotifyThis(search) {
       limit: limit
     })
     .then(function (response) {
+      console.log(search);
       console.log("=======================================");
       console.log("TOP FIVE RESULTS");
       console.log("=======================================");
@@ -113,6 +121,7 @@ function movieThis(search) {
       var r = res.data;
       var movieResult = {
         Title: r.Title,
+        Year: r.Year,
         Rated: r.Rated,
         IMDB: r.Ratings[0].Value,
         RottenTomatoes: r.Ratings[1].Value,
