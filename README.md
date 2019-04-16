@@ -7,7 +7,11 @@ Search the Bands in Town Artist Events API to return the following event informa
 * Location
 * Date
 
-*currently set to return three results*
+Parameters
+* 'concert-this'
+* band or artist name
+
+*Currently set to return three results*
 
 ![Concert](/screenshots/concert-this.png)
 
